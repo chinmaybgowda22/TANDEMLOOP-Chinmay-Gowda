@@ -14,7 +14,7 @@ int main() {
         result[i] = count;
     }
 
-    for (auto &p : result)
+    for (auto &p :  result)
         cout << p.first << ": " << p.second << endl;
 
     return 0;
